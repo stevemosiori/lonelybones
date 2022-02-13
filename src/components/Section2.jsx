@@ -4,7 +4,7 @@ function Section2() {
   return (
     <div className='section is-relative' style={{
     }}>
-        <div className='columns'>
+        <div className='columns is-overlay p-6'>
             <div className='column is-two-thirds p-6'>
                 <h3 style={{
                     fontSize: '80px',
@@ -22,7 +22,9 @@ function Section2() {
                 </p>
             </div>
         </div>
-        <img src='/images/Skull images.png'/>
+        <div className='mt-5'>
+        <img className='mt-6' src='/images/Skull image.png'/>
+        </div>
     </div>
   )
 }
