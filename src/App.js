@@ -13,6 +13,7 @@ function App() {
       <Header />
       <Section1 />
       <Section2 />
+      <Section2 />
     </div>
   );
 }
