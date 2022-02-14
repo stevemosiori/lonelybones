@@ -44,7 +44,7 @@ function Section3() {
             </div>
         </div>
         <div style={{
-            marginTop: '-80px'
+            marginTop: '-150px'
         }} className=''>
         <img className='mt-6' src='/images/NFT bg.svg'/>
         </div>
