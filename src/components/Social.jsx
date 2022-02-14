@@ -1,4 +1,3 @@
-import react from 'react'
 
 export default function Social(props) {
     return (
@@ -8,7 +7,7 @@ export default function Social(props) {
             <img style={{
                 width: '40px',
                 height: '40px'
-            }} className='mx-4' src={props.src} />
+            }} className='mx-4' src={props.src} alt="" />
         </div>
     )
 }

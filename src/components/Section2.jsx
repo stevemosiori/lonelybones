@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Section2() {
   return (
@@ -22,8 +21,8 @@ function Section2() {
                 </p>
             </div>
         </div>
-        <div className='m-0 mt-5 has-background'>
-        <img className='mt-6' src='/images/Skull images.png'/>
+        <div>
+            <img src='/images/Skull images.png' alt=""/>
         </div>
     </div>
   )

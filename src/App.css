@@ -34,6 +34,10 @@
   cursor: pointer;
 }
 
+#NftsTop .column, #NftsBottom .column  {
+  cursor: pointer;
+}
+
 #NftsTop .column:nth-child(odd) {
   margin-top: -12px;
 }

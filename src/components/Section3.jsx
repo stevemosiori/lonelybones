@@ -1,4 +1,3 @@
-import React from 'react'
 import Nft from './Nft'
 
 function Section3() {
@@ -6,47 +5,58 @@ function Section3() {
     <div className='section is-relative p-0' style={{
     }}>
         <div style={{
-            marginTop: '240px'
-        }} className='is-overlay p-4'>
-            <div id='NftsTop' className='columns is-multiline is-3'>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 18.png' />
+            marginTop: '-160px',
+            width: '100%'
+        }} className=''>
+            <img className='mt-6' src='/images/NFT bg-t.png' alt=''/>
+        </div>
+        <div style={{
+            background: '#960e12',
+            width: '100%',
+            margin: '0'
+        }} className=''>
+            <div className="px-6">
+                <div id='NftsTop' className='columns is-multiline is-3'>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 18.png' />
+                    </div>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 19.png' />
+                    </div>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 21.png' />
+                    </div>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 20.png' />
+                    </div>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 22.png' />
+                    </div>
                 </div>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 19.png' />
-                </div>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 21.png' />
-                </div>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 20.png' />
-                </div>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 22.png' />
-                </div>
-            </div>
-            <div id='NftsBottom' className='columns is-multiline is-3 mt-6'>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 25.png' />
-                </div>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 24.png' />
-                </div>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 26.png' />
-                </div>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 23.png' />
-                </div>
-                <div className='column is-one-fifth'>
-                    <Nft src='/images/Group 27.png' />
+                <div id='NftsBottom' className='columns is-multiline is-3 mt-6'>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 25.png' />
+                    </div>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 24.png' />
+                    </div>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 26.png' />
+                    </div>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 23.png' />
+                    </div>
+                    <div className='column is-one-fifth'>
+                        <Nft src='/images/Group 27.png' />
+                    </div>
                 </div>
             </div>
         </div>
         <div style={{
-            marginTop: '-150px'
+            // marginTop: '-150px',
+            background: '#fede91'
         }} className=''>
-        <img className='mt-6' src='/images/NFT bg.svg'/>
+            <img src='/images/NFT bg-b.png' alt=''/>
         </div>
     </div>
   )
