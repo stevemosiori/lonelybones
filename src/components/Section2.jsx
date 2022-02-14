@@ -2,7 +2,7 @@ import React from 'react'
 
 function Section2() {
   return (
-    <div className='section is-relative' style={{
+    <div className='section is-relative p-0' style={{
     }}>
         <div className='columns is-overlay p-6'>
             <div className='column is-two-thirds p-6'>
@@ -22,7 +22,7 @@ function Section2() {
                 </p>
             </div>
         </div>
-        <div className='mt-5'>
+        <div className='m-0 mt-5 has-background'>
         <img className='mt-6' src='/images/Skull image.png'/>
         </div>
     </div>
