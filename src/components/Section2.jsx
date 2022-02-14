@@ -23,7 +23,7 @@ function Section2() {
             </div>
         </div>
         <div className='m-0 mt-5 has-background'>
-        <img className='mt-6' src='/images/Skull image.png'/>
+        <img className='mt-6' src='/images/Skull images.png'/>
         </div>
     </div>
   )

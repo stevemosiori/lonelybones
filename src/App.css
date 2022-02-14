@@ -33,3 +33,11 @@
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   cursor: pointer;
 }
+
+#NftsTop .column:nth-child(odd) {
+  margin-top: -12px;
+}
+
+#NftsBottom .column:nth-child(odd) {
+  margin-top: -12px;
+}
