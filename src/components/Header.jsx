@@ -2,7 +2,7 @@ import Social from './Social'
 
 export default function Header(props) {
     return (
-        <div  className='is-relative'>
+        <div className='is-relative'>
             <div style={{
                     background: '#7e5455'
                 }} className='hero'>
