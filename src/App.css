@@ -45,3 +45,22 @@
 #NftsBottom .column:nth-child(odd) {
   margin-top: -12px;
 }
+
+#logoTop {
+  margin-left: 70px;
+}
+
+@media screen and (max-width: 600px) {
+  #NftsTop .column, #NftsBottom .column {
+    margin-top: -12px;
+  }
+
+  #logoTop {
+    margin-left: 5px;
+  }
+
+  .connectBtn {
+    margin-left: -80px!important;
+    transform: scale(.8);
+  }
+}

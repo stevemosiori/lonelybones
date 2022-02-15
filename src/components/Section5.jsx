@@ -12,7 +12,7 @@ function Section5() {
             <p style={{
                 fontSize: '89px',
                 color: '#FEDE91',
-            }} className='is-uppercase font-trashhand has-text-centered'>roadmap</p>
+            }} className='is-uppercase font-trashhand has-text-centered'>team</p>
             <div className="mt-6"></div>
             <div className="columns is-centered">
                 <div className="column is-one-quarter">

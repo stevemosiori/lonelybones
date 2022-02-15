@@ -2,13 +2,14 @@ import Social from './Social'
 
 export default function Header(props) {
     return (
-        <div className='is-relative'>
-            <img src='/images/Nav rect.svg' alt='' />
-            <div className='hero is-overlay'>
-                <div class="columns">
+        <div  className='is-relative'>
+            <div style={{
+                    background: '#7e5455'
+                }} className='hero'>
+                <div class="columns is-mobile">
                     <div class="column is-three-quarters is-flex is-flex-direction-row pl-6">
-                        <img className='ml-6 mt-3' src='/images/Logo.png' alt=''/>
-                        <div class="is-flex is-flex-direction-row mt-5">
+                        <img id='logoTop' className='mt-3' src='/images/Logo.png' alt=''/>
+                        <div class="is-flex is-flex-direction-row mt-5 is-hidden-mobile">
                             <Social src='/images/Opensea.svg' />
                             <Social src='/images/Discord.svg' />
                             <Social src='/images/Ig.svg' />
@@ -20,6 +21,7 @@ export default function Header(props) {
                     </div>
                 </div>
             </div>
+            <img src='/images/Nav rect.png' alt='' />
         </div>
     )
 }

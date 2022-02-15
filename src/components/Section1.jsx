@@ -2,7 +2,7 @@
 function Section1() {
   return (
     <div className='hero' style={{
-        marginTop: '-80px',
+        // marginTop: '-80px',
     }}>
         <div className='columns is-vcentered is-mobile'>
             <div className='column is-two-thirds'>
