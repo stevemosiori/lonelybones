@@ -50,7 +50,15 @@
   margin-left: 70px;
 }
 
-@media screen and (max-width: 600px) {
+#whyBuyLoneyBones {
+    background-image: url('../public/images/Skull images.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+  }
+
+@media screen and (max-width: 768px) {
   #NftsTop .column, #NftsBottom .column {
     margin-top: -12px;
   }
@@ -62,5 +70,17 @@
   .connectBtn {
     margin-left: -80px!important;
     transform: scale(.8);
+  }
+
+  #whyBuyLoneyBones {
+    background-image: url('../public/images/Skull images.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom 0px right 0px;
+  }
+
+  .roadMapEntry {
+    padding: 30px!important;
   }
 }
