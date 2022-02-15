@@ -2,7 +2,8 @@
 export default function Social(props) {
     return (
         <div style={{
-            width: '50px'
+            width: '50px',
+            cursor: 'pointer',
         }} className='mx-2'>
             <img style={{
                 width: '40px',
