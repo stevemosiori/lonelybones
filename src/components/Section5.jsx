@@ -29,7 +29,9 @@ function Section5() {
         <div style={{
             background: '#16202a'
         }} className=''>
-            <img src='/images/Footer rect.png' alt=""/>
+            <img style={{
+                    width: '100%',
+                }} src='/images/Footer rect.png' alt=""/>
         </div>
         <div style={{
             background: '#7e5455'
