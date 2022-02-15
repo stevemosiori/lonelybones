@@ -5,7 +5,7 @@ export default function Header(props) {
         <div className='is-relative'>
             <div style={{
                     background: '#7e5455'
-                }} className='hero'>
+                }} className='hero is-clipped'>
                 <div class="columns is-mobile">
                     <div class="column is-three-quarters is-flex is-flex-direction-row pl-6">
                         <img id='logoTop' className='mt-3' src='/images/Logo.png' alt=''/>
