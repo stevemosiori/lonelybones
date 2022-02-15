@@ -5,7 +5,7 @@ export default function Social(props) {
             width: '50px',
             cursor: 'pointer',
         }} className='mx-2'>
-            <a target={'_blank'} href={props.href}>
+            <a rel="noreferrer" target={'_blank'} href={props.href}>
             <img style={{
                 width: '40px',
                 height: '40px'

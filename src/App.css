@@ -65,7 +65,6 @@
   background-position: right;
 }
 
-
 @media screen and (max-width: 768px) {
   #NftsTop .column, #NftsBottom .column {
     margin-top: -12px;
@@ -85,10 +84,6 @@
   }
 
   #whyBuyLoneyBones {
-    background-image: url('../public/images/Skull images.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
     background-position: bottom 50px right 0px;
   }
 
@@ -185,11 +180,7 @@
   cursor: pointer;
 }
 
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
+@media screen and (min-device-width: 768px) and (max-device-width: 820px) {
   .connectBtn {
     margin-left: -70px!important;
     transform: scale(.8);
@@ -214,27 +205,17 @@ and (orientation : portrait) {
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 820px) {
-  .connectBtn {
-    margin-left: -70px!important;
-    transform: scale(.8);
-  }
-
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 768px) 
+and (orientation : portrait) {
   #whyBuyLoneyBones {
-    background-position: bottom 50px right 0px;
-  }
-
-  #whyBuyLoneyBones h3 {
-    font-size: 46px!important;
-    line-height: 46px!important;
+    background-position: bottom 0px right 0px;
   }
 
   #whyBuyLoneyBones p {
-    font-size: 27px!important;
-    line-height: 42px!important;
-  }
-
-  .roadMapEntryTopic {
-    padding-left: 0!important;
+    font-size: 26px!important;
+    line-height: 35px!important;
+    padding-bottom: 120px;
   }
 }

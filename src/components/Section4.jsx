@@ -2,9 +2,7 @@ import RoadmapMapEntry from "./RoadMapEntry"
 
 function Section4() {
   return (
-    <div className='section is-relative p-0' style={{
-        
-    }}>
+    <div className='section is-relative p-0'>
         <div style={{
             background: '#fede91'
         }} className='p-4 m-0'>

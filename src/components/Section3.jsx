@@ -18,38 +18,38 @@ function Section3() {
             marginTop: '-45px',
             paddingBottom: '30px'
         }} className='is-flex is-flex-direction-row is-justify-content-center'>
-            <div className="px-4 pt-6">
-                <div id='NftsTop' className='columns is-multiline is-mobile'>
-                    <div className='column is-half-mobile is-one-fifth-desktop'>
+            <div className="px-4 pt-6 ">
+                <div id='NftsTop' className='columns is-multiline is-mobile '>
+                    <div className='column is-half-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 18.png' />
                     </div>
-                    <div className='column is-half-mobile is-one-fifth-desktop'>
+                    <div className='column is-half-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 19.png' />
                     </div>
-                    <div className='column is-half-mobile is-offset-one-quarter-mobile is-one-fifth-desktop'>
+                    <div className='column is-half-mobile is-offset-one-quarter-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 21.png' />
                     </div>
-                    <div className='column is-half-mobile is-one-fifth-desktop'>
+                    <div className='column is-half-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 20.png' />
                     </div>
-                    <div className='column is-half-mobile is-one-fifth-desktop'>
+                    <div className='column is-half-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 22.png' />
                     </div>
                 </div>
-                <div id='NftsBottom' className='columns is-multiline mt-6 is-mobile mb-6'>
-                    <div className='column is-half-mobile is-one-fifth-desktop'>
+                <div id='NftsBottom' className='columns is-multiline mt-6 is-mobile mb-6 '>
+                    <div className='column is-half-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 25.png' />
                     </div>
-                    <div className='column is-half-mobile is-one-fifth-desktop'>
+                    <div className='column is-half-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 24.png' />
                     </div>
-                    <div className='column is-half-mobile is-offset-one-quarter-mobile is-one-fifth-desktop'>
+                    <div className='column is-half-mobile is-offset-one-quarter-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 26.png' />
                     </div>
-                    <div className='column is-half-mobile is-one-fifth-desktop'>
+                    <div className='column is-half-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 23.png' />
                     </div>
-                    <div className='column is-half-mobile is-one-fifth-desktop'>
+                    <div className='column is-half-mobile is-one-fifth-desktop is-flex is-flex-direction-row is-justify-content-center'>
                         <Nft src='/images/Group 27.png' />
                     </div>
                 </div>
