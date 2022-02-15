@@ -18,7 +18,7 @@ export default function RoadmapMapEntry(props) {
                             }} className='' src={props.entryImg} alt="" />
                         </div>
                         <div  className="">
-                            <p className="is-size-4 font-jackarmstrong font-dark pl-5 roadMapEntryTopic">{props.entryTopic}</p>
+                            <p className="is-size-4 font-jackarmstrong font-dark roadMapEntryTopic">{props.entryTopic}</p>
                         </div>
                     </div>
 
