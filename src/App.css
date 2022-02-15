@@ -9,6 +9,11 @@
   border: #16202A;
 }
 
+.connectBtn:hover {
+  color: #FEE7B0;
+  background: #0d131a 0% 0% no-repeat padding-box;
+}
+
 @font-face {
   font-family: 'TrashHand';
   src: url('../public/fonts/TrashHand.ttf'); /* IE9 Compat Modes */

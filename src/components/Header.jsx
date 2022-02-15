@@ -22,8 +22,8 @@ export default function Header(props) {
                 </div>
             </div>
             <img style={{
-                    width: '100%',
-                }} src='/images/Nav rect.png' alt='' />
+                width: '100%',
+            }} src='/images/Nav rect.png' alt='' />
         </div>
     )
 }
