@@ -4,7 +4,7 @@ export default function Nft(props) {
         <div>
             <img style={{
                 width: 250 * 0.887043189,
-                height: 250
+                // height: 250
             }} className='' src={props.src} alt="" />
         </div>
     )

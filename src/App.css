@@ -83,4 +83,14 @@
   .roadMapEntry {
     padding: 30px!important;
   }
+
+  #whyBuyLoneyBones h3 {
+    font-size: 46px!important;
+    line-height: 46px!important;
+  }
+
+  #whyBuyLoneyBones p {
+    font-size: 26px!important;
+    line-height: 26px!important;
+  }
 }
