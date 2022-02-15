@@ -40,11 +40,11 @@ function Section5() {
                         <img className="ml-6" src='/images/Logo.png' alt=''/>
                     </div>
                     <div id="bottomSocials" class="column is-half is-flex is-flex-direction-row is-justify-content-center pl-6">
-                        <div class="is-flex is-flex-direction-row mt-5">
-                            <Social src='/images/Opensea.svg' />
-                            <Social src='/images/Discord.svg' />
-                            <Social src='/images/Ig.svg' />
-                            <Social src='/images/Twitter.svg' />
+                        <div class="x1 is-flex is-flex-direction-row mt-5">
+                            <Social href="https://opensea.io/collection/the-lonely-bones-collection" src='/images/Opensea.svg' />
+                            <Social href="https://discord.gg/ZWYeQdy6Ru" src='/images/Discord.svg' />
+                            <Social href="https://instagram.com/thelonelybonesclub" src='/images/Ig.svg' />
+                            <Social href="https://twitter.com/LonelyBoneClub" src='/images/Twitter.svg' />
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@ function Section3() {
         <div style={{
             marginTop: '-190px',
             width: '100%'
-        }} className=''>
+        }} className='is-flex is-flex-direction-row is-justify-content-center'>
             <img style={{
                     width: '100%',
                 }} className='mt-6' src='/images/NFT bg-t.png' alt=''/>

@@ -65,26 +65,6 @@
   background-position: right;
 }
 
-@media screen and (min-width: 768px) and (max-width: 820px) {
-  .connectBtn {
-    margin-left: -70px!important;
-    transform: scale(.8);
-  }
-
-  #whyBuyLoneyBones {
-    background-position: bottom 50px right 0px;
-  }
-
-  #whyBuyLoneyBones h3 {
-    font-size: 46px!important;
-    line-height: 46px!important;
-  }
-
-  #whyBuyLoneyBones p {
-    font-size: 27px!important;
-    line-height: 42px!important;
-  }
-}
 
 @media screen and (max-width: 768px) {
   #NftsTop .column, #NftsBottom .column {
@@ -93,6 +73,10 @@
 
   #logoTop {
     margin-left: 5px;
+  }
+
+  #sectionHeader .hero {
+    padding: 0!important;
   }
 
   .connectBtn {
@@ -165,6 +149,10 @@
     margin-top: 30px!important;
   }
 
+  #bottomSocials .x1 {
+    margin-top: 0px!important;
+  }
+
   #section1 {
     margin-top: 45px;
   }
@@ -195,4 +183,58 @@
 
 #logoTop {
   cursor: pointer;
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  .connectBtn {
+    margin-left: -70px!important;
+    transform: scale(.8);
+  }
+
+  #whyBuyLoneyBones {
+    background-position: bottom 50px right 0px;
+  }
+
+  #whyBuyLoneyBones h3 {
+    font-size: 46px!important;
+    line-height: 46px!important;
+  }
+
+  #whyBuyLoneyBones p {
+    font-size: 27px!important;
+    line-height: 42px!important;
+  }
+
+  .roadMapEntryTopic {
+    padding-left: 0!important;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 820px) {
+  .connectBtn {
+    margin-left: -70px!important;
+    transform: scale(.8);
+  }
+
+  #whyBuyLoneyBones {
+    background-position: bottom 50px right 0px;
+  }
+
+  #whyBuyLoneyBones h3 {
+    font-size: 46px!important;
+    line-height: 46px!important;
+  }
+
+  #whyBuyLoneyBones p {
+    font-size: 27px!important;
+    line-height: 42px!important;
+  }
+
+  .roadMapEntryTopic {
+    padding-left: 0!important;
+  }
 }
