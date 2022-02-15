@@ -9,7 +9,7 @@ export default function Header(props) {
                 <div class="columns is-mobile">
                     <div class="column is-three-quarters is-flex is-flex-direction-row pl-6">
                         <img id='logoTop' className='mt-3' src='/images/Logo.png' alt=''/>
-                        <div class="is-flex is-flex-direction-row mt-5 is-hidden-mobile">
+                        <div class="is-flex is-flex-direction-row mt-5 ml-6 is-hidden-mobile">
                             <Social src='/images/Opensea.svg' />
                             <Social src='/images/Discord.svg' />
                             <Social src='/images/Ig.svg' />

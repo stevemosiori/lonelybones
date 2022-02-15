@@ -2,7 +2,7 @@ import Nft from './Nft'
 
 function Section3() {
   return (
-    <div className='section is-relative p-0' style={{
+    <div id='section3' className='section is-relative p-0' style={{
     }}>
         <div style={{
             marginTop: '-190px',
@@ -15,9 +15,10 @@ function Section3() {
         <div style={{
             background: '#960e12',
             width: '100%',
-            margin: '0'
-        }} className=''>
-            <div className="px-6">
+            marginTop: '-45px',
+            paddingBottom: '30px'
+        }} className='is-flex is-flex-direction-row is-justify-content-center'>
+            <div className="px-4 pt-6">
                 <div id='NftsTop' className='columns is-multiline is-mobile'>
                     <div className='column is-half-mobile is-one-fifth-desktop'>
                         <Nft src='/images/Group 18.png' />
@@ -35,7 +36,7 @@ function Section3() {
                         <Nft src='/images/Group 22.png' />
                     </div>
                 </div>
-                <div id='NftsBottom' className='columns is-multiline mt-6 is-mobile'>
+                <div id='NftsBottom' className='columns is-multiline mt-6 is-mobile mb-6'>
                     <div className='column is-half-mobile is-one-fifth-desktop'>
                         <Nft src='/images/Group 25.png' />
                     </div>
@@ -57,7 +58,7 @@ function Section3() {
         <div style={{
             // marginTop: '-150px',
             background: '#fede91'
-        }} className=''>
+        }} className='nftBottomImg'>
             <img style={{
                     width: '100%',
                 }} src='/images/NFT bg-b.png' alt=''/>
