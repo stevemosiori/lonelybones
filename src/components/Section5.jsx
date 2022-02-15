@@ -1,4 +1,5 @@
 import Member from "./Member"
+import Social from "./Social"
 
 function Section5() {
   return (
@@ -28,7 +29,26 @@ function Section5() {
         <div style={{
             background: '#16202a'
         }} className=''>
-            <img src='/images/Footer rect.svg' alt=""/>
+            <img src='/images/Footer rect.png' alt=""/>
+        </div>
+        <div style={{
+            background: '#7e5455'
+        }} className=''>
+            <div className="">
+                <div className="columns is-centered">
+                    <div className="column is-one-quarter is-flex is-flex-direction-row is-justify-content-center">
+                        <img src='/images/Logo.png' alt=''/>
+                    </div>
+                    <div class="column is-half is-flex is-flex-direction-row is-justify-content-center pl-6">
+                        <div class="is-flex is-flex-direction-row mt-5">
+                            <Social src='/images/Opensea.svg' />
+                            <Social src='/images/Discord.svg' />
+                            <Social src='/images/Ig.svg' />
+                            <Social src='/images/Twitter.svg' />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )
