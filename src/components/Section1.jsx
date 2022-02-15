@@ -6,10 +6,14 @@ function Section1() {
     }}>
         <div className='columns is-vcentered is-mobile'>
             <div className='column is-two-thirds'>
-                <img src="/images/Hero image.png" alt="" />
+                <img style={{
+                    width: '100%',
+                }} src="/images/Hero image.png" alt="" />
             </div>
             <div className='column'>
-                <img className='mint' src='/images/Mint button.svg' alt="" />
+                <img style={{
+                    width: '100%',
+                }} className='mint' src='/images/Mint button.svg' alt="" />
             </div>
         </div>
     </div>

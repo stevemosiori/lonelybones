@@ -67,7 +67,9 @@ function Section4() {
         <div style={{
             background: '#16202a'
         }} className=''>
-            <img src='/images/Roadmap bg.png' alt=""/>
+            <img style={{
+                    width: '100%',
+                }} src='/images/Roadmap bg.png' alt=""/>
         </div>
     </div>
   )

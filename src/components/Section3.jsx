@@ -8,7 +8,9 @@ function Section3() {
             marginTop: '-190px',
             width: '100%'
         }} className=''>
-            <img className='mt-6' src='/images/NFT bg-t.png' alt=''/>
+            <img style={{
+                    width: '100%',
+                }} className='mt-6' src='/images/NFT bg-t.png' alt=''/>
         </div>
         <div style={{
             background: '#960e12',
@@ -56,7 +58,9 @@ function Section3() {
             // marginTop: '-150px',
             background: '#fede91'
         }} className=''>
-            <img src='/images/NFT bg-b.png' alt=''/>
+            <img style={{
+                    width: '100%',
+                }} src='/images/NFT bg-b.png' alt=''/>
         </div>
     </div>
   )
