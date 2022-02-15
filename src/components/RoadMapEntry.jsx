@@ -12,7 +12,7 @@ export default function RoadmapMapEntry(props) {
                 </div>
                 <div className="roadMapEntry column is-three-fifths">
                     <div className="">
-                        <div className="is-hidden-desktop">
+                        <div className="is-hidden-tablet">
                             <img style={{
                                 width: '90px',
                             }} className='' src={props.entryImg} alt="" />

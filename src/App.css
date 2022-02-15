@@ -59,12 +59,32 @@
 }
 
 #whyBuyLoneyBones {
-    background-image: url('../public/images/Skull images.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    
+  background-image: url('../public/images/Skull images.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .connectBtn {
+    margin-left: -70px!important;
+    transform: scale(.8);
   }
+
+  #whyBuyLoneyBones {
+    background-position: bottom 50px right 0px;
+  }
+
+  #whyBuyLoneyBones h3 {
+    font-size: 46px!important;
+    line-height: 46px!important;
+  }
+
+  #whyBuyLoneyBones p {
+    font-size: 27px!important;
+    line-height: 42px!important;
+  }
+}
 
 @media screen and (max-width: 768px) {
   #NftsTop .column, #NftsBottom .column {
